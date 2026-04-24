@@ -29,7 +29,7 @@ cat ~/.codex/auth.json
 
 ```bash
 # 克隆
-git clone https://github.com/YOUR_USERNAME/codex-image.git
+git clone https://github.com/u9wangcl/codex-image.git
 cd codex-image
 
 # 生成图片
@@ -129,3 +129,4 @@ codex-image/
 ## 许可证
 
 MIT
+
