@@ -2,6 +2,8 @@
 
 [中文文档](./README_CN.md)
 
+> **Agent Skill** — This project is an [Agent Skill](https://docs.anthropic.com/en/docs/agents) that can be used standalone or integrated into AI coding assistants (Codex CLI, Claude Code, Gemini CLI, etc.) to provide image generation capabilities. Place it under your project's `.skills/` directory and the agent will automatically discover and invoke it when image generation is needed.
+
 Generate images using your local Codex CLI authentication — no API key required.
 
 This tool reads your `~/.codex/auth.json` (created by `codex login`) and calls the ChatGPT backend Responses API with the built-in `image_generation` tool to produce images.

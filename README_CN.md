@@ -2,6 +2,8 @@
 
 [English](./README.md)
 
+> **Agent Skill** — 本项目是一个 Agent Skill，既可独立使用，也可集成到 AI 编码助手（Codex CLI、Claude Code、Gemini CLI 等）中，为其提供图片生成能力。将本项目放到工程的 `.skills/` 目录下，Agent 会自动发现并在需要生成图片时调用。
+
 使用本地 Codex CLI 登录凭证生成图片 —— 无需配置 API Key。
 
 本工具读取 `codex login` 生成的 `~/.codex/auth.json`，通过 ChatGPT 后端 Responses API 的内置 `image_generation` 工具生成图片。
